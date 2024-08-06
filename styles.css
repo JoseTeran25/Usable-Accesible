@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #1C324F;
+}
+
+header {
+    background-color: #2840B2; /* Azul claro */
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+ 
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Khanda', sans-serif;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    color: #2840B2; /* Azul claro */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #2840B2; /* Azul claro */
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #2840B2; /* Azul claro */
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+video {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #2E386A; /* Azul 2 */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.contenedor-logo{
+    display: flex;
+    align-items: center;
+
+}
+.contenedor-logo h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem; /* Ajusta el tamaño del texto como prefieras */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase; /* Letras en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
